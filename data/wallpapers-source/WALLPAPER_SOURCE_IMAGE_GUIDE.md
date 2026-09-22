@@ -16,6 +16,7 @@ That file is the main entrypoint for the R2 wallpaper asset workflow.
 - Source images only.
 - Stable kebab-case filenames only, because the filename becomes the wallpaper
   ID and display name.
+- When adding a new source image, verify that its filename is unique in this directory before committing.
 - Examples:
   - `blue-mountain-sunrise.jpg` -> `Blue Mountain Sunrise`
   - `moraine-lake-sunrise.jpg` -> `Moraine Lake Sunrise`
